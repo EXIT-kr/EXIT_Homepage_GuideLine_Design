@@ -1,0 +1,34 @@
+header{
+  background: rgba(255, 255, 255, 0.9);
+}
+nav{
+  background-image: url(./public/img/cover.jpg);
+  background-size: cover;
+  padding: 100px;
+  padding-top: 150px;
+}
+body{
+  background: #f9fafb;
+}
+footer{
+  background: #eeeeee;
+}
+
+footer ul{
+  list-style: none;
+}
+
+footer li{
+  display: inline;
+}
+
+
+#brand_logo{
+  display: inline-block;
+  width: 120px;
+}
+
+.github.github-text{
+  margin-top: 10px;
+
+}

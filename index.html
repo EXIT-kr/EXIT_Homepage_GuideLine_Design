@@ -1,15 +1,85 @@
 <!DOCTYPE HTML>
 <html>
 <meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <head>
   <title>EXIT 홈페이지</title>
+
   <!-- jQuery -->
   <script src="./public/jquery-3.1.1.js"></script>
   <!-- Bootstrap -->
   <link rel="stylesheet" href="./public/bootstrap/css/bootstrap.css" />
   <script src="./public/bootstrap/js/bootstrap.js"></script>
+
+  <!-- Main Style CSS -->
+  <link rel="stylesheet" href="./style.css" />
+  <!-- XEicon -->
+  <link rel="stylesheet" href="http://cdn.jsdelivr.net/xeicon/2/xeicon.min.css">
+
 </head>
+<header class="navbar navbar-fixed-top">
+  <a class="navbar-brand" href="#"><img id="brand_logo" src="./public/img/main_exit_logo.png" /></a>
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#about">제휴</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+</header>
+<nav class="text-center">
+  <h1>이곳은 NAV</h1>
+</nav>
 <body>
-  <h1>hello Bootstrap!</h1>
+  <br />
+  <div class="container-fluid">
+
+    <div class="panel panel-default">
+
+      <div class="panel-heading">
+        <i class="xi-github xi-x"></i>
+        Github History
+      </div>
+
+      <div class="panel-body">
+        <img src="https://avatars.githubusercontent.com/u/7167731?" width="30px" class="img-circle">
+        <span>1 days ago</span>
+        <div class="github github-text">
+            <i class="xi-branch xi-x"></i><span>nayunhwan created branch master at EXIT-kr/EXIT_Homepage_GuideLine_Design</span>
+        </div>
+      </div>
+    </div>
+      <h1>여기는 바디입니다.</h1>
+      <p class="lead">
+        안녕하세요 우린 리드입니다.
+      </p>
+      <p>
+        이것은 일반 문단입니다.
+      </p>
+
+
+  </div>
+
+
 </body>
+<footer>
+
+  <li><a href="#"><i class="xi-github xi-x"></i></a></li>
+  <li><a href="#"><i class="xi-facebook-official xi-x"></i></a></li>
+  <li><a href="#"><i class="xi-gmail xi-x"></i></a></li>
+  <p>
+    Powered by Github Pages<br />
+    경기도 안산시 상록구 한양대학로 55 한양대학교 ERICA 창업보육센터
+  </p>
+</footer>
 </html>
