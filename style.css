@@ -28,7 +28,23 @@ footer li{
   width: 120px;
 }
 
+#shuttlecock_info{
+  background-image: url(./public/img/campus.jpg);
+  padding: 200px;
+  color: white;
+}
+#shuttlecock_info img{
+  width: 300px;
+}
+
+#partnership{
+
+}
+
+#partnership img{
+  width: 200px;
+}
+
 .github.github-text{
   margin-top: 10px;
-
 }
